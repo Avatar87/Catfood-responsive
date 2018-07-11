@@ -2,6 +2,7 @@
     font-family: Exo
     src: url('../fonts/ExoThin.otf');
 
+
 .body
         display: flex;
         flex-direction: column;
@@ -23,6 +24,8 @@
 		align-self: center;
 		align-items: center;
 		justify-content: space-evenly;
+		-ms-flex-pack: justify;
+		-ms-flex-align: center;
 
 .item
 		background-image: url(../images/cat.png);
@@ -136,6 +139,8 @@
 	.container 
 			width: 100%;
 			flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			-ms-flex-align: center;
 			
 	.item__container
 			margin-bottom: 10px;		
