@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/ExoThin.otf"); }
+
+.body {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url(../images/pattern.jpg);
+  padding: 0px;
+  align-items: center;
+  justify-content: center; }
+
+.heading {
+  font-family: Exo;
+  font-size: 36px;
+  color: #fff; }
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-evenly;
+  -ms-flex-pack: justify;
+  -ms-flex-align: center; }
+
+.item {
+  background-image: url(../images/cat.png);
+  background-size: cover;
+  width: 320px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer; }
+
+.item__container {
+  display: flex;
+  flex-direction: column; }
+
+.item__text1 {
+  font-size: 16px;
+  font-family: Trebuchet MS;
+  color: #666666;
+  margin-left: 50px;
+  margin-top: 25px; }
+
+.item__text2 {
+  font-size: 48px;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 50px; }
+
+.item__text3 {
+  font-size: 24px;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 50px; }
+
+.item__text4 {
+  font-size: 14px;
+  font-family: Trebuchet MS;
+  color: #666666;
+  margin-left: 50px;
+  margin-top: 15px;
+  line-height: 16px; }
+
+.item__weight {
+  color: #666666;
+  align-self: flex-end;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #1698d9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 16px;
+  bottom: -205px; }
+
+.item__weight__text1 {
+  font-size: 42px;
+  font-family: Trebuchet MS;
+  color: #ffffff;
+  line-height: 30px; }
+
+.item__weight__text2 {
+  font-size: 21px;
+  font-family: Trebuchet MS;
+  color: #ffffff; }
+
+.happycustomer {
+  padding-bottom: 20px; }
+
+.buy {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; }
+
+.buy__text1 {
+  font-size: 13px;
+  font-family: Trebuchet MS;
+  color: #ffffff; }
+
+.buy a {
+  color: #1698d9;
+  text-decoration-style: dashed;
+  font-weight: bold; }
+
+.buy__text1_disabled {
+  color: #ffff66; }
+
+.item_disabled {
+  background-image: url(../images/cat2.png);
+  cursor: default; }
+
+.text_disabled {
+  color: #b3b3b3; }
+
+.item__weight_disabled {
+  background-color: #b3b3b3; }
+
+.itemselected {
+  background-image: url(../images/cat3.png); }
+
+.weightselected {
+  background-color: #d91667; }
+
+@media (max-width: 977px) {
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -ms-flex-align: center; }
+  .item__container {
+    margin-bottom: 10px; } }
